@@ -47,7 +47,7 @@ body {
     padding-top: 10px;
 }
 
-.status {
+#status {
     color: black;
     text-align: left;
     font-size: 17px;
