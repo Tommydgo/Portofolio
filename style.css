@@ -1,7 +1,113 @@
-#purple {
-    background-color: #FFFFE3;
-    color: #9A7AAF;
-    padding: 20px;
-    text-align: center;
-    border: 2px solid #442f52;
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+:root {
+    --cream: #FFFFE3;
+    --purple: #9A7AAF;
+}
+
+*, ::before, ::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+body {
+    background-color: black
+}
+
+#profile_box {
+    width: 25vw;
+    height: 100vh;
+    border: 3px solid black;
+    border-radius: 5%;
+    background-color: var(--cream);
+    margin: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+
+#photo {
+    width: 125px;
+    height: auto;
+    border-radius: 50%;
+    border: 1px solid black
+}
+
+#name {
+    color: black;
+    text-align: left;
+    font-size: 25px;
+    font-family: "Nunito", sans-serif;
+    padding-top: 10px;
+}
+
+.status {
+    color: black;
+    text-align: left;
+    font-size: 17px;
+    font-family: "Nunito", sans-serif;
+    padding-top: 5px;
+}
+
+#linkedin {
+    width: 40px;
+    height: auto;
+    padding-top: 15px;
+    padding-left: 10px;
+}
+
+#github {
+    width:40px;
+    height: auto;
+    padding-top: 15px;
+    padding-left: 10px;
+}
+
+#about_title {
+    color: black;
+    text-align: justify;
+    font-size: 17px;
+    font-family: "Nunito", sans-serif;
+    padding-top: 50px;
+}
+
+#about {
+    color: black;
+    text-align: justify;
+    font-size: 17px;
+    font-family: "Nunito", sans-serif;
+    padding-top: 10px;
+}
+
+#skills {
+    color: black;
+    text-align: justify;
+    font-size: 17px;
+    font-family: "Nunito", sans-serif;
+    padding-top: 50px;
+}
+
+.skills_container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.skill_box {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-size: 15px;
+    font-family: "Nunito", sans-serif;
+    padding: 5px 10px;
+    border: 1px dashed black;
+    border-radius: 50px;
 }
